@@ -1,0 +1,26 @@
+# Confere as skills em todo PR e em todo push na main (o mesmo que python3 scripts/validar.py)
+name: validar
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: validar-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validar:
+    name: validar
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - name: Baixa o código
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: As skills, os manifestos e nada de projeto específico
+        run: python3 scripts/validar.py

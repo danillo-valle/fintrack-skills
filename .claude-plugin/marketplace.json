@@ -1,0 +1,15 @@
+{
+  "name": "fintrack-skills",
+  "description": "Skills genéricas em português tiradas do FinTrack, reescritas para qualquer projeto.",
+  "owner": {
+    "name": "Danillo Valle",
+    "url": "https://github.com/danillo-valle"
+  },
+  "plugins": [
+    {
+      "name": "fintrack-skills",
+      "source": "./",
+      "description": "Commits e PRs, migrações com o Prisma 7, testes E2E com Playwright, segurança contra o OWASP Top 10:2025, deploy num servidor próprio, autenticação com o Better Auth e interface com shadcn/ui."
+    }
+  ]
+}

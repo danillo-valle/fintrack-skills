@@ -1,0 +1,22 @@
+{
+  "name": "fintrack-skills",
+  "description": "Skills genéricas em português para apps web com Next.js 16, Better Auth, Prisma 7, Playwright e deploy num servidor próprio: commits e PRs, migrações, testes E2E, segurança contra o OWASP Top 10:2025, operação, autenticação e interface.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Danillo Valle",
+    "url": "https://github.com/danillo-valle"
+  },
+  "homepage": "https://github.com/danillo-valle/fintrack-skills",
+  "repository": "https://github.com/danillo-valle/fintrack-skills",
+  "license": "MIT",
+  "keywords": [
+    "nextjs",
+    "better-auth",
+    "prisma",
+    "playwright",
+    "owasp",
+    "docker",
+    "shadcn",
+    "pt-br"
+  ]
+}
